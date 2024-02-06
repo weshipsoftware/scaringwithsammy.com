@@ -1,0 +1,17 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "hypertext src docs"
+    },
+    "clean" : {
+      "enabled" : true,
+      "script" : "rm -rf docs"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "hypertext src docs --stream"
+    }
+  },
+  "openLogOnRun" : "start"
+}
