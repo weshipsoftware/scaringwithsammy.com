@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+html {
+  font-family: "Cabin", sans-serif;
+  text-align: center;
+  background-color: #FAF9F6;
+  background-image: url(/images/blood.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+div#contact {
+  display: inline-block;
+  float: left;
+  margin-top: 11px;
+  margin-left: 11px;
+}
+
+div#contact a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 0 3px;
+  font-weight: bold;
+}
+
+div#socials { float: right; }
+div#socials a { text-decoration: none; }
+div#socials a:hover { cursor: pointer; }
+
+div#container {
+  max-width: 720px;
+  margin: auto;
+  padding: 11px;
+  padding-top: 5em;
+}
+
+img#profile {
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px silver;
+}
+
+p#lede {
+  font-size: 1.5em;
+  margin-bottom: 3em;
+  background-color: #FFFFFFDD;
+  padding: 11px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+
+@media (max-width: 720px) {
+  h2 { font-size: 1em; }
+}
+
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  margin-bottom: 3em;
+  border: 3px solid white;
+  box-shadow: 1px 1px 3px silver;
+}
+
+#footer {
+  margin-top: 3em;
+  background-color: #FFFFFFDD;
+  padding: 0 11px;
+  display: inline-block;
+}

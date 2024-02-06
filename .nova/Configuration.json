@@ -1,4 +1,8 @@
 {
+  "workspace.art_style" : 0,
   "workspace.color" : 0,
-  "workspace.name" : "Scaring with Sammy"
+  "workspace.name" : "Scaring with Sammy",
+  "workspace.preview_root" : "docs",
+  "workspace.preview_type" : "custom",
+  "workspace.preview_url" : "http:\/\/localhost:8080"
 }

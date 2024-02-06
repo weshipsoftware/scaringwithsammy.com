@@ -1,0 +1,9 @@
+{
+  "clips" : [
+    {
+      "content" : "<!-- #include !video.html ++ @src: ${:src} ++ @title: ${:title} -->",
+      "name" : "YouTube",
+      "trigger" : "yt"
+    }
+  ]
+}
