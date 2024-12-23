@@ -1,32 +1,14 @@
 @font-face {
-  font-family: "BrandonText";
-  font-style: normal;
-  font-weight: normal;
-  font-stretch: normal;
-  letter-spacing: -.01em;
-  src:
-    url("/webfonts/BrandonTextRegular.woff2") format("woff2"),
-    url("/webfonts/BrandonTextRegular.woff") format("woff");
+  font-family: "BrandonText"; font-style: normal; font-weight: normal;
+  src: url("/webfonts/BrandonTextRegular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "BrandonText";
-  font-style: normal;
-  font-weight: bold;
-  font-stretch: normal;
-  letter-spacing: -.01em;
-  src:
-    url("/webfonts/BrandonTextBold.woff2") format("woff2"),
-    url("/webfonts/BrandonTextBold.woff") format("woff");
+  font-family: "BrandonText"; font-style: normal; font-weight: bold;
+  src: url("/webfonts/BrandonTextBold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "BrandonText";
-  font-style: italic;
-  font-weight: normal;
-  font-stretch: normal;
-  letter-spacing: -.01em;
-  src:
-    url("/webfonts/BrandonTextItalic.woff2") format("woff2"),
-    url("/webfonts/BrandonTextItalic.woff") format("woff");
+  font-family: "BrandonText"; font-style: italic; font-weight: normal;
+  src: url("/webfonts/BrandonTextItalic.woff2") format("woff2");
 }

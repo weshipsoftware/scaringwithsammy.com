@@ -1,34 +1,16 @@
 @font-face {
-  font-family: "BrandonText";
-  font-style: normal;
-  font-weight: normal;
-  font-stretch: normal;
-  letter-spacing: -.01em;
-  src:
-    url("/webfonts/BrandonTextRegular.woff2") format("woff2"),
-    url("/webfonts/BrandonTextRegular.woff") format("woff");
+  font-family: "BrandonText"; font-style: normal; font-weight: normal;
+  src: url("/webfonts/BrandonTextRegular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "BrandonText";
-  font-style: normal;
-  font-weight: bold;
-  font-stretch: normal;
-  letter-spacing: -.01em;
-  src:
-    url("/webfonts/BrandonTextBold.woff2") format("woff2"),
-    url("/webfonts/BrandonTextBold.woff") format("woff");
+  font-family: "BrandonText"; font-style: normal; font-weight: bold;
+  src: url("/webfonts/BrandonTextBold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "BrandonText";
-  font-style: italic;
-  font-weight: normal;
-  font-stretch: normal;
-  letter-spacing: -.01em;
-  src:
-    url("/webfonts/BrandonTextItalic.woff2") format("woff2"),
-    url("/webfonts/BrandonTextItalic.woff") format("woff");
+  font-family: "BrandonText"; font-style: italic; font-weight: normal;
+  src: url("/webfonts/BrandonTextItalic.woff2") format("woff2");
 }
 
 html {
@@ -55,17 +37,9 @@ div#contact a {
   font-weight: bold;
 }
 
-div#socials {
-  float: right;
-}
-
-div#socials a {
-  text-decoration: none;
-}
-
-div#socials a:hover {
-  cursor: pointer;
-}
+div#socials { float: right; }
+div#socials a { text-decoration: none; }
+div#socials a:hover { cursor: pointer; }
 
 div#container {
   max-width: 720px;
@@ -94,9 +68,7 @@ h2 {
 }
 
 @media (max-width: 720px) {
-  h2 {
-    font-size: 1em;
-  }
+  h2 { font-size: 1em; }
 }
 
 .youtube-video {

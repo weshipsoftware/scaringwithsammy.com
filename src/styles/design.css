@@ -24,17 +24,9 @@ div#contact a {
   font-weight: bold;
 }
 
-div#socials {
-  float: right;
-}
-
-div#socials a {
-  text-decoration: none;
-}
-
-div#socials a:hover {
-  cursor: pointer;
-}
+div#socials { float: right; }
+div#socials a { text-decoration: none; }
+div#socials a:hover { cursor: pointer; }
 
 div#container {
   max-width: 720px;
@@ -63,9 +55,7 @@ h2 {
 }
 
 @media (max-width: 720px) {
-  h2 {
-    font-size: 1em;
-  }
+  h2 { font-size: 1em; }
 }
 
 .youtube-video {
