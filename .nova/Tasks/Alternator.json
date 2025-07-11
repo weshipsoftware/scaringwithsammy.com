@@ -10,7 +10,7 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "alternator src docs -p 80"
+      "script" : "alternator src docs -wp 80"
     }
   },
   "openLogOnRun" : "start"
