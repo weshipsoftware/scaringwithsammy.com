@@ -9,6 +9,8 @@ html {
   background-attachment: fixed;
 }
 
+h1 { display: none; }
+
 div#contact {
   display: inline-block;
   float: left;
@@ -24,11 +26,11 @@ div#contact a {
   font-weight: bold;
 }
 
-div#socials { float: right; }
-div#socials a { text-decoration: none; }
-div#socials a:hover { cursor: pointer; }
+nav { float: right; }
+nav a { text-decoration: none; }
+nav a:hover { cursor: pointer; }
 
-div#container {
+main {
   max-width: 720px;
   margin: auto;
   padding: 11px;
@@ -44,19 +46,18 @@ img#profile {
 p#lede {
   font-size: 1.5em;
   margin-bottom: 3em;
-  background-color: #FFFFFFEE;
+  background-color: #FFFFFF;
   padding: 11px;
 }
 
-h1 {
+h2 {
   background-color: black;
   color: white;
   display: inline-block;
-  font-size: 1.5rem;
 }
 
 @media (max-width: 720px) {
-  h1 { font-size: 1em; }
+  h2 { font-size: 1em; }
 }
 
 .youtube-video {
@@ -69,7 +70,7 @@ h1 {
 
 #footer {
   margin-top: 3em;
-  background-color: #FFFFFFEE;
+  background-color: #FFFFFF;
   padding: 0 11px;
   display: inline-block;
 }
