@@ -44,7 +44,7 @@ img#profile {
 p#lede {
   font-size: 1.5em;
   margin-bottom: 3em;
-  background-color: #FFFFFFDD;
+  background-color: #FFFFFFEE;
   padding: 11px;
 }
 
@@ -69,7 +69,7 @@ h1 {
 
 #footer {
   margin-top: 3em;
-  background-color: #FFFFFFDD;
+  background-color: #FFFFFFEE;
   padding: 0 11px;
   display: inline-block;
 }
