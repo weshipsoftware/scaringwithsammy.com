@@ -44,6 +44,7 @@ img#profile {
 }
 
 p#lede {
+  box-shadow: 1px 1px 3px silver;
   font-size: 1.5em;
   margin-bottom: 3em;
   background-color: #FFFFFF;
@@ -52,6 +53,7 @@ p#lede {
 
 h2 {
   background-color: black;
+  box-shadow: 1px 1px 3px #222;
   color: white;
   display: inline-block;
 }
@@ -69,8 +71,9 @@ h2 {
 }
 
 #footer {
+  box-shadow: 1px 1px 3px silver;
   margin-top: 3em;
   background-color: #FFFFFF;
-  padding: 0 11px;
+  padding: 0 22px;
   display: inline-block;
 }
